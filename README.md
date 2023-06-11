@@ -4,7 +4,7 @@ The base version of this repo is a clone of [Soft-Label Dataset Distillation and
 
 ### Methods Implemented:
 1. [VanillaDistill](https://github.com/Harshp1802/text-dataset-distillation/blob/84c9464ffaf0f7a38255e9dd86a852a9c3e5349b/networks/networks.py#L506)
-2. [SkipLookupDistill](https://github.com/Harshp1802/text-dataset-distillation/blob/84c9464ffaf0f7a38255e9dd86a852a9c3e5349b/networks.py#L268)
+2. [SkipLookupDistill](https://github.com/Harshp1802/text-dataset-distillation/blob/682d4ae4ea8924ebfadaee096791eb7b30e1ec41/networks/networks.py#L268)
 3. [VocabDistill (Softmax)]( https://github.com/Harshp1802/text-dataset-distillation/blob/84c9464ffaf0f7a38255e9dd86a852a9c3e5349b/networks/networks.py#L348)
 4. [VocabDistill (Gumbel)](https://github.com/Harshp1802/text-dataset-distillation/blob/84c9464ffaf0f7a38255e9dd86a852a9c3e5349b/networks/networks.py#L428)
 
@@ -52,7 +52,7 @@ python main.py --mode distill_basic --dataset umsab --arch TextConvNet_BERT
  --device_id 0 --phase test
 ```
 
-The file `docs/advanced.md` by the original authours gives a detailed description of useful parameters.
+The file `docs/advanced.md` by the original authors gives a detailed description of useful parameters.
 
 References:
 1. Soft-Label Dataset Distillation and Text Dataset Distillation [Paper](https://arxiv.org/abs/1910.02551)
