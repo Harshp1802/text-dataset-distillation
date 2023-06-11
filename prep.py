@@ -1,0 +1,5 @@
+a = ["--mode",                 "distill_basic",                 "--dataset",                 "umsab",                 "--arch",                 "TextConvNet1",                 "--distill_steps",                 "1",                 "--static_labels",                 "0",                 "--random_init_labels",                 "hard",                 "--textdata",                 "True",                 "--visualize",                 "",                 "--distilled_images_per_class_per_step",                 "10",                 "--distill_epochs",                 "5",                 "--distill_lr",                 "0.01",                 "--decay_epochs",                 "10",                 "--epochs",                 "100",                 "--lr",                 "0.01",                 "--ntoken",                 "5000",                 "--ninp",                 "100",                 "--results_dir",                 "text_results/umsab_20by1_unkinit_repl1",                 "--device_id",                 "0",                 "--phase",                 "train"]
+
+c = [x.strip() for x in a]
+d = ' '.join(c)
+print(d)
